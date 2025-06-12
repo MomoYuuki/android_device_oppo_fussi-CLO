@@ -9,25 +9,25 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 TARGET_SUPPORTS_OMX_SERVICE := false
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from lemonadep device
-$(call inherit-product, device/oneplus/lemonadep/device.mk)
+# Inherit from fussi device
+$(call inherit-product, device/oppo/fussi/device.mk)
 
 # Inherit some common SunOS stuff.
 $(call inherit-product, vendor/sun/config/common_full_phone.mk)
 
-# Official
-SUN_BUILD_TYPE := Official
+PRODUCT_NAME := sun_fussi
+PRODUCT_DEVICE := fussi
+PRODUCT_MANUFACTURER := OPPO
+PRODUCT_BRAND := OPPO
+PRODUCT_MODEL := PEEM00
 
-PRODUCT_NAME := sun_lemonadep
-PRODUCT_DEVICE := lemonadep
-PRODUCT_MANUFACTURER := OnePlus
-PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := LE2125
+PRODUCT_SYSTEM_NAME := OP4E3F
+PRODUCT_SYSTEM_DEVICE := OP4E3F
 
-PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DeviceName=OnePlus9Pro \
-    DeviceProduct=OnePlus9Pro \
-    SystemDevice=OnePlus9Pro \
-    SystemName=OnePlus9Pro
+    DeviceName=OP4E3F \
+    DeviceProduct=PEEM00 \
+    SystemDevice=OP4E3F \
+    SystemName=PEEM00

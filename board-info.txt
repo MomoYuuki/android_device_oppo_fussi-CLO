@@ -1,1 +1,1 @@
-require board=lahaina|OnePlus9Pro|lemonadep
+require board=lahaina|OPPOFindX3Pro|fussi

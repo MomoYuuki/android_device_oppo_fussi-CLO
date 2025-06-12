@@ -1,5 +1,5 @@
 # Bluetooth
-bluetooth.device.default_name=OnePlus 9 Pro 5G
+bluetooth.device.default_name=OPPO FindX3 Pro
 
 # Graphics
 ro.surface_flinger.set_idle_timer_ms=250
@@ -9,4 +9,4 @@ ro.surface_flinger.set_touch_timer_ms=300
 ro.sun.display.resolution_switch=1
 
 # USB
-vendor.usb.product_string=OnePlus 9 Pro 5G
+vendor.usb.product_string=OPPO FindX3 Pro
